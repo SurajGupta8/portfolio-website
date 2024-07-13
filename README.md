@@ -1,4 +1,4 @@
-# Portfolio Website - Suraj Kumar Gupta
+# Portfolio Website - Suraj Gupta
 
 This is a personal portfolio website for Suraj Kumar Gupta, showcasing his professional summary, work experience, education, skills, and contact information. The website is built using React, HTML, CSS, and JavaScript, ensuring it is responsive and functional across all screen sizes.
 
