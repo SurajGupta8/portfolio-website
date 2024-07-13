@@ -1,7 +1,66 @@
-# Getting Started with Create React App
+# Portfolio Website - Suraj Kumar Gupta
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal portfolio website for Suraj Kumar Gupta, showcasing his professional summary, work experience, education, skills, and contact information. The website is built using React, HTML, CSS, and JavaScript, ensuring it is responsive and functional across all screen sizes.
 
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Available Scripts](#available-scripts)
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these steps.
+
+### Prerequisites
+
+- Node.js and npm should be installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/portfolio-website.git
+   cd portfolio-website
+2. **Install Dependencies:**
+    ```sh
+    npm install
+
+## Project Structure
+The project structure is organized as follows:
+```
+portfolio-website/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── css/
+│   │   │   ├── About.css
+│   │   │   ├── Contact.css
+│   │   │   ├── Education.css
+│   │   │   ├── Experience.css
+|   │   │   ├── Skills.css
+|   │   │   ├── Header.css
+│   │   ├── test/
+│   │   │   ├── About.test.js
+│   │   │   ├── Contact.test.js
+│   │   │   ├── Education.test.js
+│   │   │   ├── Experience.test.js
+|   │   │   ├── Skills.test.js
+|   │   │   ├── Header.test.js
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   ├── Education.js
+│   │   ├── Experience.js
+│   │   ├── Header.js
+│   │   ├── Skills.js
+│   ├── App.js
+│   ├── App.css
+│   ├── App.test.js
+│   ├── index.js
+│   ├── index.css
+└── package.json
+```
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,33 +97,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
